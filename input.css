@@ -1,0 +1,15 @@
+@import "tailwindcss"; 
+@plugin "@midudev/tailwind-animations";
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/assets/fonts/OpenSans.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+}
+@theme {
+    --breakpoint-xs: 360px;
+
+    --font-display: 'OpenSans', system-ui sans-serif;
+}
